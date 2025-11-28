@@ -51,7 +51,7 @@ return (
             />
           </div>
 
-          {/* Name */}
+          
           <div className="flex flex-col">
             <label className="font-semibold text-gray-700 mb-1">
               Full Name
@@ -65,7 +65,7 @@ return (
             />
           </div>
 
-          {/* Email */}
+          
           <div className="flex flex-col">
             <label className="font-semibold text-gray-700 mb-1">
               Email Address
@@ -79,7 +79,7 @@ return (
             />
           </div>
 
-          {/* Phone */}
+          
           <div className="flex flex-col">
             <label className="font-semibold text-gray-700 mb-1">
               Phone Number
@@ -93,7 +93,7 @@ return (
             />
           </div>
 
-          {/* Duration */}
+          
           <div className="flex flex-col">
             <label className="font-semibold text-gray-700 mb-1">
               Duration
@@ -107,7 +107,7 @@ return (
             />
           </div>
 
-          {/* Buttons */}
+          
           <div className="flex justify-between pt-4">
             <button
               type="submit"
