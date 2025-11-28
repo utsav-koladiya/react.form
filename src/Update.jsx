@@ -46,7 +46,7 @@ const Update = () => {
 
         <form onSubmit={handleSubmit} className="space-y-4">
 
-          {/* ID */}
+          
           <div className="flex flex-col">
             <label className="font-semibold text-gray-700 mb-1">Student ID</label>
             <input
@@ -57,7 +57,7 @@ const Update = () => {
             />
           </div>
 
-          {/* Name */}
+          
           <div className="flex flex-col">
             <label className="font-semibold text-gray-700 mb-1">Full Name</label>
             <input
@@ -69,7 +69,7 @@ const Update = () => {
             />
           </div>
 
-          {/* Email */}
+          
           <div className="flex flex-col">
             <label className="font-semibold text-gray-700 mb-1">Email</label>
             <input
@@ -81,7 +81,7 @@ const Update = () => {
             />
           </div>
 
-          {/* Phone */}
+          
           <div className="flex flex-col">
             <label className="font-semibold text-gray-700 mb-1">Phone Number</label>
             <input
@@ -93,7 +93,7 @@ const Update = () => {
             />
           </div>
 
-          {/* Duration */}
+          
           <div className="flex flex-col">
             <label className="font-semibold text-gray-700 mb-1">Duration</label>
             <input
@@ -105,7 +105,7 @@ const Update = () => {
             />
           </div>
 
-          {/* Buttons */}
+          
           <div className="flex justify-between pt-4">
             <button
               type="submit"
