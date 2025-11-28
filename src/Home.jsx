@@ -67,7 +67,7 @@ return (
 
                 <td className="flex justify-center gap-4 py-3">
 
-                  {/* Delete Button */}
+                  
                   <button
                     onClick={() => handleDelete(d.id)}
                     className="bg-red-500 text-white px-4 py-1 rounded-lg shadow hover:bg-red-700 transition"
@@ -75,7 +75,7 @@ return (
                     Delete
                   </button>
 
-                  {/* Update Button */}
+                  
                   <Link
                     to={`/update/${d.id}`}
                     className="bg-yellow-500 text-white px-4 py-1 rounded-lg shadow hover:bg-yellow-700 transition"
